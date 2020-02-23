@@ -512,4 +512,231 @@ C:\Users\anon>
 C:\Users\anon>REG ADD \\ABC\HKLM\software\MyCo
 ERROR: The network path was not found.
 
-C:\Users\anon>
+
+C:\Users\anon>Tasklist
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+System Idle Process              0 Services                   0          8 K
+System                           4 Services                   0      4,208 K
+Registry                        96 Services                   0     49,160 K
+smss.exe                       388 Services                   0        320 K
+csrss.exe                      580 Services                   0      2,044 K
+wininit.exe                    700 Services                   0        896 K
+services.exe                   772 Services                   0      6,348 K
+lsass.exe                      792 Services                   0     11,524 K
+svchost.exe                    908 Services                   0      1,004 K
+svchost.exe                    932 Services                   0     31,832 K
+fontdrvhost.exe                 76 Services                   0        576 K
+svchost.exe                    844 Services                   0     13,272 K
+svchost.exe                    952 Services                   0      3,708 K
+svchost.exe                   1168 Services                   0      4,968 K
+svchost.exe                   1216 Services                   0      2,304 K
+svchost.exe                   1388 Services                   0      4,720 K
+atiesrxx.exe                  1428 Services                   0      1,580 K
+svchost.exe                   1436 Services                   0     10,308 K
+svchost.exe                   1528 Services                   0      4,484 K
+svchost.exe                   1568 Services                   0      4,804 K
+svchost.exe                   1580 Services                   0     95,544 K
+svchost.exe                   1592 Services                   0      3,960 K
+svchost.exe                   1604 Services                   0      1,544 K
+svchost.exe                   1672 Services                   0      3,424 K
+svchost.exe                   1688 Services                   0      4,828 K
+svchost.exe                   1728 Services                   0     10,348 K
+igfxCUIService.exe            1784 Services                   0      2,816 K
+svchost.exe                   1828 Services                   0      8,136 K
+Memory Compression            1848 Services                   0    115,292 K
+svchost.exe                   1908 Services                   0      5,112 K
+svchost.exe                   1972 Services                   0      5,952 K
+svchost.exe                   1648 Services                   0     14,392 K
+svchost.exe                   2096 Services                   0      4,248 K
+svchost.exe                   2104 Services                   0      5,196 K
+svchost.exe                   2276 Services                   0      9,180 K
+svchost.exe                   2316 Services                   0      6,188 K
+aips.exe                      2340 Services                   0      7,256 K
+svchost.exe                   2436 Services                   0     15,684 K
+svchost.exe                   2468 Services                   0      8,468 K
+svchost.exe                   2776 Services                   0      4,612 K
+svchost.exe                   2784 Services                   0      2,392 K
+svchost.exe                   2952 Services                   0      8,912 K
+svchost.exe                   3016 Services                   0      3,892 K
+spoolsv.exe                   2488 Services                   0      4,508 K
+svchost.exe                   2456 Services                   0     10,968 K
+svchost.exe                   2216 Services                   0      2,464 K
+mDNSResponder.exe             3100 Services                   0      3,692 K
+svchost.exe                   3116 Services                   0      2,076 K
+svchost.exe                   3128 Services                   0     12,616 K
+CxAudMsg64.exe                3140 Services                   0      4,080 K
+svchost.exe                   3148 Services                   0      2,296 K
+svchost.exe                   3184 Services                   0     18,116 K
+svchost.exe                   3192 Services                   0     27,656 K
+svchost.exe                   3228 Services                   0      2,824 K
+svchost.exe                   3276 Services                   0      6,980 K
+MBAMService.exe               3288 Services                   0     29,520 K
+PsiService_2.exe              3328 Services                   0      1,128 K
+RtkBtManServ.exe              3380 Services                   0      3,488 K
+SynTPEnhService.exe           3388 Services                   0      2,080 K
+svchost.exe                   3400 Services                   0      1,240 K
+svchost.exe                   3416 Services                   0      3,236 K
+svchost.exe                   3424 Services                   0        936 K
+MsMpEng.exe                   3464 Services                   0    203,924 K
+svchost.exe                   3484 Services                   0     13,304 K
+WsAppService.exe              3500 Services                   0      7,384 K
+dasHost.exe                   3540 Services                   0        672 K
+svchost.exe                   3548 Services                   0      1,768 K
+AdobeUpdateService.exe        3672 Services                   0      1,984 K
+svchost.exe                   3724 Services                   0      2,524 K
+svchost.exe                   3900 Services                   0      3,304 K
+svchost.exe                   3916 Services                   0      3,644 K
+AGMService.exe                4084 Services                   0      3,272 K
+AGSService.exe                3700 Services                   0      9,796 K
+svchost.exe                   4408 Services                   0      4,984 K
+svchost.exe                   4824 Services                   0      1,548 K
+unsecapp.exe                  5568 Services                   0      2,340 K
+dllhost.exe                   5676 Services                   0      3,612 K
+svchost.exe                   5972 Services                   0     11,188 K
+NisSrv.exe                    4388 Services                   0      6,644 K
+AUEPLauncher.exe              2608 Services                   0      1,164 K
+svchost.exe                   5904 Services                   0      8,112 K
+AUEPMaster.exe                5460 Services                   0      9,720 K
+svchost.exe                    880 Services                   0     11,000 K
+svchost.exe                   2948 Services                   0      5,836 K
+GoogleCrashHandler.exe         508 Services                   0        144 K
+SgrmBroker.exe                1148 Services                   0      4,428 K
+svchost.exe                   1420 Services                   0     10,836 K
+GoogleCrashHandler64.exe      1308 Services                   0        116 K
+svchost.exe                   5628 Services                   0      2,336 K
+svchost.exe                   7064 Services                   0     10,600 K
+svchost.exe                   7108 Services                   0      6,716 K
+svchost.exe                   6924 Services                   0     11,004 K
+svchost.exe                   8848 Services                   0      5,680 K
+svchost.exe                   2464 Services                   0     22,372 K
+SecurityHealthService.exe     9140 Services                   0      8,752 K
+svchost.exe                   4836 Services                   0      4,472 K
+svchost.exe                   7940 Services                   0      2,832 K
+svchost.exe                   6860 Services                   0      3,512 K
+svchost.exe                    896 Services                   0      3,552 K
+svchost.exe                   9864 Services                   0      3,324 K
+svchost.exe                   8844 Services                   0      2,096 K
+svchost.exe                  11536 Services                   0      2,948 K
+OfficeClickToRun.exe          5396 Services                   0     24,112 K
+AppVShNotify.exe             10064 Services                   0        936 K
+SearchIndexer.exe            12408 Services                   0     42,584 K
+svchost.exe                  10880 Services                   0      5,180 K
+csrss.exe                     9820 Console                    5      2,948 K
+winlogon.exe                 11780 Console                    5      4,784 K
+fontdrvhost.exe              17920 Console                    5      5,928 K
+dwm.exe                      12740 Console                    5     61,868 K
+sihost.exe                    6696 Console                    5     30,992 K
+svchost.exe                  15580 Console                    5     11,544 K
+svchost.exe                  13732 Console                    5     60,000 K
+taskhostw.exe                 9936 Console                    5     13,084 K
+ctfmon.exe                    3264 Console                    5      8,704 K
+svchost.exe                  17356 Console                    5     27,212 K
+RuntimeBroker.exe             6276 Console                    5     20,000 K
+RuntimeBroker.exe            12348 Console                    5     42,032 K
+SkypeApp.exe                 16480 Console                    5        332 K
+SkypeBackgroundHost.exe      13124 Console                    5        228 K
+ApplicationFrameHost.exe      9280 Console                    5     29,004 K
+dllhost.exe                  14416 Console                    5      8,384 K
+RuntimeBroker.exe             1400 Console                    5     18,296 K
+RuntimeBroker.exe             8448 Console                    5      3,616 K
+schtasks.exe                  7912 Console                    5        968 K
+conhost.exe                  17144 Console                    5      1,264 K
+schtasks.exe                 17592 Console                    5        968 K
+conhost.exe                   9808 Console                    5      1,272 K
+svchost.exe                  11948 Console                    5     10,060 K
+RuntimeBroker.exe            18236 Console                    5     16,636 K
+SystemSettings.exe            6680 Console                    5        432 K
+Music.UI.exe                 14400 Console                    5        360 K
+svchost.exe                  17936 Console                    5      2,904 K
+taskhostw.exe                 2128 Console                    5     11,116 K
+explorer.exe                 14168 Console                    5    155,636 K
+StartMenuExperienceHost.e     8684 Console                    5     68,776 K
+SearchUI.exe                  3616 Console                    5     74,368 K
+mbamtray.exe                 15320 Console                    5     18,680 K
+LockApp.exe                  12280 Console                    5     25,572 K
+RuntimeBroker.exe            16412 Console                    5     23,124 K
+SynTPEnh.exe                  8592 Console                    5     11,792 K
+SynTPHelper.exe              15132 Console                    5        996 K
+Video.UI.exe                 13752 Console                    5        636 K
+RuntimeBroker.exe            19400 Console                    5      5,348 K
+smartscreen.exe              11816 Console                    5     23,144 K
+IDMan.exe                    20028 Console                    5     26,760 K
+IDMIntegrator64.exe          10916 Console                    5      8,024 K
+IEMonitor.exe                16532 Console                    5      1,960 K
+SecurityHealthHost.exe       18652 Console                    5     13,512 K
+netcut_windows.exe           26556 Services                   0     15,180 K
+conhost.exe                  26564 Services                   0      7,480 K
+RuntimeBroker.exe            26940 Console                    5     12,476 K
+WWAHost.exe                  26268 Console                    5     47,060 K
+YourPhoneServer.exe           7508 Console                    5     12,500 K
+YourPhone.exe                27248 Console                    5        308 K
+RuntimeBroker.exe            26308 Console                    5     16,064 K
+ShellExperienceHost.exe      13240 Console                    5     54,204 K
+RuntimeBroker.exe            26008 Console                    5     29,408 K
+svchost.exe                  21696 Services                   0      7,148 K
+dllhost.exe                  26248 Console                    5      6,368 K
+cmd.exe                       5144 Services                   0      3,160 K
+conhost.exe                  17028 Services                   0      5,452 K
+qemu-system-x86_64.exe       27656 Services                   0     15,832 K
+MicrosoftEdge.exe            25692 Console                    5     55,592 K
+browser_broker.exe           23640 Console                    5      7,728 K
+MicrosoftEdgeSH.exe          14344 Console                    5     12,776 K
+MicrosoftEdgeCP.exe           6384 Console                    5     49,888 K
+svchost.exe                  11752 Services                   0      5,176 K
+chrome.exe                   24892 Console                    5    134,908 K
+chrome.exe                   25752 Console                    5      6,396 K
+chrome.exe                   16652 Console                    5      8,644 K
+chrome.exe                   26124 Console                    5    108,784 K
+chrome.exe                   28316 Console                    5     39,216 K
+chrome.exe                   17984 Console                    5     43,396 K
+chrome.exe                   26276 Console                    5     73,080 K
+WmiPrvSE.exe                 25512 Services                   0     17,628 K
+chrome.exe                   14232 Console                    5     70,476 K
+chrome.exe                   25492 Console                    5     87,152 K
+chrome.exe                   27920 Console                    5     22,552 K
+git-bash.exe                 16136 Console                    5      5,248 K
+mintty.exe                   26568 Console                    5     17,224 K
+conhost.exe                  24064 Console                    5     12,812 K
+bash.exe                     19820 Console                    5      9,380 K
+svchost.exe                   4588 Services                   0      5,964 K
+git-bash.exe                 18232 Console                    5      5,252 K
+mintty.exe                   26204 Console                    5     17,000 K
+conhost.exe                  26688 Console                    5     12,804 K
+bash.exe                     27844 Console                    5      9,316 K
+git-bash.exe                 26304 Console                    5      5,248 K
+mintty.exe                   22552 Console                    5     17,096 K
+conhost.exe                  17064 Console                    5     12,800 K
+bash.exe                     25128 Console                    5      9,376 K
+SearchProtocolHost.exe       25344 Console                    5      6,996 K
+notepad.exe                    548 Console                    5     15,904 K
+notepad.exe                  25812 Console                    5     15,996 K
+notepad.exe                  18832 Console                    5     16,376 K
+notepad.exe                  27032 Console                    5     16,364 K
+cmd.exe                      27472 Console                    5      3,924 K
+conhost.exe                   5536 Console                    5     18,320 K
+backgroundTaskHost.exe       17864 Console                    5     19,796 K
+WmiPrvSE.exe                 26284 Services                   0      9,108 K
+tasklist.exe                 13684 Console                    5      8,272 K
+
+C:\Users\anon>type nomorwa.txt
+0822-8817-4784
+C:\Users\anon>ps
+'ps' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\anon>pwd
+'pwd' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\anon>mkdir cek_nomor
+
+C:\Users\anon>move nomorwa.txt C:\Users\anon\cek_nomor
+        1 file(s) moved.
+
+C:\Users\anon>cd cek_nomor
+
+C:\Users\anon\cek_nomor>type nomorwa.txt
+0822-8817-4784
+C:\Users\anon\cek_nomor>
