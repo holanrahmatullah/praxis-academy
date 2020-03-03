@@ -1,60 +1,10 @@
-import java.io.Serializable;
-
-public class Color implements Serializable
+public class Color 
 {
-    private int value;
-    private transient String name;
-    
-    public static final Color RED   = new Color( 0, "Red"   );
-    public static final Color BLUE  = new Color( 1, "Blue"  );
-    public static final Color GREEN = new Color( 2, "Green" );
-    private Color( int value, String name )
-    {
-        this.value = value;
-        this.name = name;
-    }
-    
-    public int getValue()
-    {
-        return value; 
-
-    }
-    
-    public String toString()
-    {
-        return name;
-    }
+    public static final int RED = 5;
+    public static final int GREEN = 7;
 }
 
-class Color extends Type
+public void someMethod()
 {
-    protected Color( int value, String desc )
-    {
-        super( value, desc );
-    }
-    public static final Color RED   = new Color( 0, "Red"  );
-    public static final Color BLUE  = new Color( 1, "Blue"  );
-    public static final Color GREEN = new Color( 2, "Green" );
-}
-
-class Type implements Serializable
-{
-    private int value;
-    private transient String name;
-    
-    protected Type( int value, String name )
-    {
-        this.value = value;
-        this.name = name;
-    }
-    
-    public int getValue()
-    {
-        return value;
-    }
-    
-    public String toString()
-    {
-        return name;
-    }
+    setColor( Color.RED( "Hi,my name is lan."));
 }
