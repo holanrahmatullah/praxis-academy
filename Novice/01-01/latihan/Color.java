@@ -8,3 +8,10 @@ public void someMethod()
 {
     setColor( Color.RED( "Hi,my name is lan."));
 }
+
+class Color
+{
+    private Color(){}
+    public static final Color RED =new Color();
+    public static final Color GREEn = new Color();
+}
