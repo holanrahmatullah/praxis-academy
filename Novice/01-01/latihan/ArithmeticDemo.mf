@@ -1,1 +1,5 @@
 Main-Class: ArithmeticDemo
+Main-Class: ArrayMatrix
+Main-Class: AssignmentOperator
+Main-Class: BitDemo
+Main-Class: ConditionalDemo
