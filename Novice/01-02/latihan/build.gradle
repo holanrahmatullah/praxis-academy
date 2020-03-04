@@ -33,7 +33,8 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClassName = 'latihan1.App'
+    mainClassName = 'latihan2.BicycleDemo'
+    
 }
 
 test {
