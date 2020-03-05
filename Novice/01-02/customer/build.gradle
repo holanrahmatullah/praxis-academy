@@ -33,15 +33,10 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClassName = 'latihan1.ArrayMatrix2'
-    
+    mainClassName = 'OOP.Customer.App'
 }
 
 test {
     // Use junit platform for unit tests
     useJUnitPlatform()
-}
-
-run{
- standardInput = System.in
 }
