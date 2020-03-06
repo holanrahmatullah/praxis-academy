@@ -41,10 +41,10 @@ public class Main {
             kondisi = true;
             
         } else {
-        
-            System.out.println("---Terima_Kasih----");
+            System.out.print("terimakasih");
+            //kondisi = false;
         }
-        }while(false);
+        }while(kondisi);
 
     }
     
