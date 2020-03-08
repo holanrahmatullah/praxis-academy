@@ -1,5 +1,6 @@
 
     package latihan1;
+    
     class Base2
 
 {
