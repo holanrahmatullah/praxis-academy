@@ -33,10 +33,14 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClassName = 'latihan3.App'
+    mainClassName = 'ATMMM.ATMMachineMain'
 }
 
 test {
     // Use junit platform for unit tests
     useJUnitPlatform()
+}
+
+run{
+ standardInput = System.in
 }
