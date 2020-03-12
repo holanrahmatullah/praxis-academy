@@ -1,4 +1,5 @@
 package kasus;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -41,10 +42,9 @@ public class VendingMachineImpl implements VendingMachine {
     }
 
     @Override
-    public void insertCoint(Coin coin) {
+    public void insertCoin(Coin coin) {
         currentBalance = currentBalance + coin.getDenomination();
         cashInventory.add(coin);
-   
     }
 
 
@@ -180,6 +180,10 @@ public class VendingMachineImpl implements VendingMachine {
     public long getTotalSales(){
         return totalSales;
     }
-
+   
+    public static void main(String[] args) {
+        
+    }
    
 }
+

@@ -2,6 +2,7 @@ package kasus.satu;
 
 import org.json.simple.JSONObject;
 
+
 public class JSONObject{
     public static void main(String[] args) {
         JSONObject obj = new JSONObject();
