@@ -1,12 +1,12 @@
 package latihan.dua;
 
+
 import fj.data.Option;
 import static fj.Show.intShow;
 import static fj.Show.optionShow;
 import static fj.data.Option.none;
 import static fj.data.Option.some;
 import static fj.function.Integers.add;
-
 public final class Option_map {
     public static void mulai() {
         final Option<Integer> o1 = some(7);

@@ -2,7 +2,7 @@
 package latihan;
 
 import latihan.satu.*;
-//import latihan.dua.*;
+import latihan.dua.*;
 import java.util.Scanner;
 
 public class App {
@@ -149,9 +149,9 @@ public class App {
             case 1:
                 pilihSatu();
                 break;
-            // case 2:
-            //     pilihDua();
-            //     break;
+            case 2:
+                pilihDua();
+                break;
             case 0:
                 System.exit(0);
             default:

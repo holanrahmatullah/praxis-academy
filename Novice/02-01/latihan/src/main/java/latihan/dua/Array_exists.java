@@ -12,4 +12,7 @@ public final class Array_exists{
 
         System.out.println(b);// true("what" is the only that qualifies; try removing it)
     }
+
+	public static void mulai() {
+	}
 }
