@@ -33,7 +33,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClassName = 'latihan.satu.AbstractFactoryPatternDemo'
+    mainClassName = 'latihan.dua.SingletonPatternDemo'
 }
 
 test {
