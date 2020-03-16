@@ -15,7 +15,7 @@ public class SynchronizedAndWait {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                retVal = queue.poll();
+                retVal = (Integer) queue.poll();
             }
         }
         return retVal;

@@ -19,7 +19,7 @@ public class ConsumerProducer {
                     }
                 }
                 if (!queue.isEmpty()) {
-                    Integer integer = queue.poll();
+                    Integer integer = (Integer) queue.poll();
                     System.out.println("[" + Thread.currentThread().getName() + "]: " + integer);
                 }
             }
