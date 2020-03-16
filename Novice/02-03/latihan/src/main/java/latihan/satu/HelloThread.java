@@ -1,15 +1,13 @@
 package latihan.satu;
 
-/**
- * HelloThread
- */
-public class HelloThread extends Thread{
+public class HelloThread extends Thread {
 
-    public void run(){
-        System.out.println("Hello from a thread");
+    public void run() {
+        System.out.println("Hello from a thread!");
     }
-    public static void main(String args[]){
+
+    public static void mulai() {
         (new HelloThread()).start();
     }
-    
+
 }
