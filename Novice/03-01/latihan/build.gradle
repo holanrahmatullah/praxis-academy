@@ -29,18 +29,19 @@ dependencies {
 
     // Use JUnit Jupiter API for testing.
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.5.2'
-
+    //mongodb driver reactivestream
     implementation 'org.mongodb:mongodb-driver-reactivestreams:1.11.0'
     // https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver
     implementation group: 'org.mongodb', name: 'mongo-java-driver', version: '3.11.0'
-
+       // https://mvnrepository.com/artifact/org.postgresql/postgresql
+     implementation group: 'org.postgresql', name: 'postgresql', version: '42.2.6'
     // Use JUnit Jupiter Engine for testing.
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.5.2'
 }
 
 application {
     // Define the main class for the application.
-    mainClassName = 'latihan.mongodb.InsertingDocument'
+    mainClassName = 'latihan.cockroachdb.BasicExample'
 }
 
 test {
