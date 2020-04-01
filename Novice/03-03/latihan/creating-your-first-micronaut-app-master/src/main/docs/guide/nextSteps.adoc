@@ -1,1 +1,0 @@
-Read more about https://micronaut-projects.github.io/micronaut-test/latest/guide/index.html[Micronaut testing].
