@@ -1,4 +1,4 @@
-package main.java.example.micronaut;
+package example.micronaut;
 
 /**
  * Book
@@ -11,7 +11,7 @@ public class Book {
 
     public Book(){}
 
-    public Book(String isbn, string name){
+    public Book(String isbn, String name){
         this.isbn = isbn;
         this.name = name;
     }

@@ -1,4 +1,4 @@
-package main.java.example.micronaut;
+package example.micronaut;
 
 /**
  * BooksClient
@@ -9,7 +9,7 @@ package main.java.example.micronaut;
     import io.micronaut.context.annotation.Requires;
     import io.micronaut.context.env.Environment;
     import io.micronaut.http.annotation.Get;
-    import io.micronaut.http.client.annotation.client;
+    import io.micronaut.http.client.annotation.Client;
     import io.reactivex.Flowable;
 
     @Client("books")

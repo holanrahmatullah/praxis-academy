@@ -1,13 +1,11 @@
-package main.java.example.micronaut;
+package example.micronaut;
 
 /**
  * BooksController
  */
 import io.micronaut.http.annotation.Controller;
 import io.micronaut.http.annotation.Get;
-import io.micronaut.http.security.annotation.Secured;
 import io.reactivex.Flowable;
-import java.util.List;
 
 
 @Controller("/api")

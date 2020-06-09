@@ -1,4 +1,4 @@
-package main.java.example.micronaut;
+package example.micronaut;
 
 /**
  * InventoryFetcher

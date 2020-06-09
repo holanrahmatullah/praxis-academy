@@ -1,8 +1,5 @@
-package test.groovy.example.micronaut
+/*package test.groovy.example.micronaut
 
-/**
- * BooksControllerSpec
- */
 
 import io.micronaut.context.ApplicationContext
 import io.micronaut.core.type.Argument
@@ -24,4 +21,4 @@ class BooksControllerSpec extends Specification {
         then:
         books books.size() == 2
     }
-} 
+}*/

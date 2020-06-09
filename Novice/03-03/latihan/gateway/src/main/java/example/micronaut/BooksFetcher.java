@@ -1,4 +1,4 @@
-package main.java.example.micronaut;
+package example.micronaut;
 
 /**
  * BooksFetcher
@@ -8,7 +8,11 @@ package main.java.example.micronaut;
  */
     import io.reactivex.Flowable;
     
-public interface InnerBooksFetcher {
+/**
+ * BooksFetcher
+ */
+public interface BooksFetcher {
+
     Flowable<Book> fetchBooks();
     
 }

@@ -1,12 +1,12 @@
-package main.java.example.micronaut;
+package example.micronaut;
 
 /**
  * InventoryClient
  */
+import io.micronaut.http.client.annotation.Client;
 import io.micronaut.context.annotation.Requires;
 import io.micronaut.context.env.Environment;
 import io.micronaut.http.annotation.Get;
-import io.micronaut.http.client.Client;
 import io.reactivex.Maybe;
 
 /**
@@ -14,10 +14,9 @@ import io.reactivex.Maybe;
  */
 @Client("inventory")
 @Requires(notEnv = Environment.TEST)
-public interface InventoryClient extends InventoryFetcher{
+public interface InventoryClient extends InventoryFetcher {
 
-    @Override
+	@Override
     @Get("/api/inventory/{isbn}")
     Maybe<Integer> inventory(String isbn);
-    
 }
